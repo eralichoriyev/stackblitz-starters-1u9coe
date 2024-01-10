@@ -1,0 +1,74 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #121853, #a30b8a);
+}
+
+.App {
+  text-align: center;
+}
+
+.nav {
+  background: linear-gradient(to right, #1d2671, #c33764);
+  color: white;
+  padding: 15px;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: inline;
+      margin-right: 20px;
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.user {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 15px;
+  background: linear-gradient(to right, #f11515, #544a7d);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.user:hover {
+  transform: scale(1.05);
+}
+
+.user img {
+  border-radius: 50%; 
+  width: 45%; 
+  margin-bottom: 15px;
+}
+
+button {
+  width: 150px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 28px;
+  cursor: pointer;
+  background: linear-gradient(to right, #4b2020, #334e7a);
+  color: white;
+  border: white;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: green;
+}
+h2 {
+  color: white;
+}
